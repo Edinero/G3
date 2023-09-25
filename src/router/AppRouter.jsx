@@ -32,6 +32,7 @@ const AppRouter = () => {
         <Route path="/promociones" element={<Promociones />} />
         <Route path="/movie/details/:id" element={<MovieDetails />} />
         <Route path="/peliculastop" element={<MoviesTop />} />
+        <Route path="/comprar" element={<Comprar />} />
         
         <Route path="*" element={<MoviesApp />} />
       </Routes>
