@@ -1,0 +1,58 @@
+ul li a:link {
+    color: #fff;
+    
+}
+a {color: #fff;}
+ul li a:hover {
+color: #fe4746;
+border-bottom: 2px solid  #fe4746;
+padding-bottom: 1rem;
+
+}
+.active-menu {
+border-bottom: 2px solid  #fe4746;
+padding-bottom: 1rem;
+color: #fe4746;
+    }
+
+    .nav-item{
+padding: 0 1rem;
+    }
+    .collapse
+{
+    line-height: 50px;
+    }
+nav {
+    z-index: 99;
+}
+
+.registrarse{
+    color: #fe4746;
+}
+.user-nm{
+    font-size: 0.7rem;
+margin-left: -15px;
+  }
+
+
+
+
+
+
+
+
+
+
+    @media only screen (max-device-width: 680px) and (-webkit-min-device-pixel-ratio: 2) {
+      .mobile-nav {
+        display: none;
+      order: 2;
+
+
+        }
+        .movil2{
+            display: flex;
+            order: 1;
+        }
+      }
+   

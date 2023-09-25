@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@300;400;500;700&display=swap');
+ }
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+  width: 100%;
+  margin-top: -30px;
+  background-color: #fe4746;
+}
+body{
+  background-color: #10141f;
+
+}
+.img-cards{
+  width: 200px;
+}
+.btn-orange{
+  /* background-color: #fe4746; */
+  background-color: #10141f;
+  text-transform: uppercase;
+  padding: 10px 35px;
+  border-radius: 2rem;
+  border: 2px solid #fe4746;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+
+}
+.btn-orange:hover{
+  background-color: #fe4746; 
+  text-transform: uppercase;
+  /* padding: 10px 50px; */
+  border-radius: 2rem;
+  border: 1px solid #fe4746;
+ 
+
+}
+.img-cards:hover{
+filter: brightness(1.2) ;
+
+}
+.logo-img{
+  width: 220px;
+
+}
+.bg-dark-3{
+  background-color: #1f293a;
+}
+
+.nav-menu > ul{
+  list-style: none;
+  font-size: 0.8rem;
+  display: flex;
+  justify-self: stretch;
+}
+
+.nav-menu > ul >li{
+
+display: inline;
+
+width: 100%;
+padding-left:  2rem;
+padding-right:  2rem;
+cursor: pointer;
+
+
+}
+
+ul > li a:link{
+text-decoration: none;
+color: #ffff;
+font-weight: 500;
+}
+
+
+
+.btn-search{
+background-color: #fe4746; 
+text-transform: uppercase;
+font-weight: 500;
+font-size: 0.8rem;
+padding: 0 1rem ;
+color:#fefeff;
+border: #fe4746 solid;
+
+}
+
+.cinema-search{   
+    caret-color: #fe4746;
+  }
+  .btn-login{
+    font-size: 0.8rem;
+    border-radius: 0 0 7px 7px;
+    background-color: #10141f;
+    
+  }
+  .btn-login-a{
+    font-size: 0.8rem;
+    background-color: #fe4746;
+    border-radius: 0 0 7px 7px;
+    }
+    .bg-dark-popup{
+      background-color: #1f293a;
+      color:#fefeff
+    }
+    #menu {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer {
+      background-color: #1f293a;
+      border-top: #fe4746 solid 1px;
+     
+    }
+.bg-footer h6 {
+  color: #fe4746;
+font-size: 0.9rem;
+}
+.bg-footer {
+  font-size: 0.85rem;
+  text-transform:uppercase ;
+  line-height: 1.8rem;
+}
+
+.bg-footer  a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.bg-footer  a:hover {
+  color: #fe4746;
+}
+
+
+   .logo-footer .img-footer {
+    width: 150px;
+   }
+   .copy {
+  color: #fe4746;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  background-color: #10141f;
+  letter-spacing: 0.2rem;
+   }
+   
+    
+    @media (max-width: 768px) { 
+
+
+      #menu {
+        display: flex;
+        justify-content: center;  
+            
+      }
+
+      .bg-footer-info{
+        margin: 0 auto;
+      }
+      
+.login {
+  align-items: center;
+  margin-left: 50px;
+}
+.logo {
+  align-items: center;
+}
+.footer-mobile{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem ;
+  text-align: center;
+align-content: center;
+ 
+  
+}
+.logo-footer .img-footer {
+  width: 200px;
+   }
+
+    }

@@ -1,0 +1,17 @@
+.grid-buttaca {
+display: grid;
+grid-template-rows: (5, 1fr);
+}
+
+.gridboleto{
+display: grid;
+
+}
+.butaca{
+    display: inline-block;
+}
+.modalsm{
+color:#10141f;
+max-width:600px ;
+
+}
