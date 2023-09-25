@@ -146,7 +146,8 @@ const Comprar = () => {
                 ></button>
               </div>
               <div className="modal-body pt-0">
-                <Checkout/>
+                <div><Checkout/></div>
+                
                 <div className=" mt-0 my-2 text-center">
                   <h6>Detalle de la Compra</h6>
                 </div>

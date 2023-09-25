@@ -60,7 +60,7 @@ const MovieListCart = ({ selectedMovie }) => {
               aria-label="Close"
             ></button>
           </div>
-          <div className="offcanvas-body large">
+          <div className="offcanvas-body large flex-wrap">
             <div className="container d-flex gap-3 justify-content-around">
               <div className="enter-cart d-flex flex-wrap gap-4 py-2">
                 <div className="sbanerimg">

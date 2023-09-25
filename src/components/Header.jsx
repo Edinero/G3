@@ -21,17 +21,7 @@ const Header = () => {
           </div>
           <nav className="navbar navbar-expand-lg navbar-dark mobile-nav">
             <div className="">
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
+             
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
@@ -75,7 +65,17 @@ const Header = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </button>
             </div>
           </nav>
 
@@ -142,7 +142,7 @@ const Header = () => {
               </div>
               <div className="p-2 gap-2 text-wrap d-flex ">
                 <p className="text-white pt-3 user-nm">{user.ClientName}</p>
-                {/* <h4 className="text-white fs-6 d-flex">{user.ClientLastName}</h4> */}
+               
               </div>
             </nav>
           </div>
