@@ -79,7 +79,7 @@ const Comprar = () => {
               {cartItems.length === 0 ? (
                 <p>No hay elementos en el carrito.</p>
               ) : (
-                <div className="row row-cols-md-3 g-4 flex-wrap ">
+                <div className="row row-cols-md-2 g-4 flex-wrap ">
                   {cartItems.map((item) => (
                     <div key={item.movie.id} >
                       <div className="card shadow d-flex" >

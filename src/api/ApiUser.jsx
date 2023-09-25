@@ -1,4 +1,5 @@
-import API_CONFIG from "../config/ApiConfig";
+import { API_CONFIG } from '../config/ApiConfig';
+
 
 export const getUser = async () => {
   try {
